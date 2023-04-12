@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+
+  .containerBonuses {
+    width: 335px;
+    border-radius: 16px;
+    margin: 0 auto;
+    filter: drop-shadow(0 0 0.75rem #c5c3c3);
+    background-color: white;
+    padding: 18px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+
+    .titleBonuses {
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 32px;
+      padding-bottom: 12px;
+    }
+
+    .fire {
+      padding: 4px 8px;
+    }
+
+    .descrBonuses {
+      display: flex;
+      color: #979797;
+    }
+    .arrow {
+      padding-top: 5px
+    }
+  }
+
+  .redBlock {
+    width: 375px;
+    height: 148px;
+    top: 169px;
+    position: absolute;
+    background: linear-gradient(#D2333E, #F54B55);
+    z-index: 0;
+  }
+}

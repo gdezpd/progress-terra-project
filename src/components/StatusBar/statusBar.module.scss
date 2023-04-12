@@ -1,0 +1,57 @@
+.wrapper {
+  padding: 5px 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  .connectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .connection {
+      height: 4px;
+      list-style-type: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+
+    .li {
+      width: 5.5px;
+      height: 5.5px;
+      border-radius: 50%;
+      border: 1px solid black;
+      margin: 0 1px;
+    }
+
+    .li:nth-child(-n + 3) {
+      background-color: black;
+    }
+
+    .app {
+      font-size: 12px;
+      padding-left: 3px;
+      font-weight: 500;
+    }
+  }
+
+  .time {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .powerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .chargingAmount {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 0 5px;
+    }
+  }
+
+}
